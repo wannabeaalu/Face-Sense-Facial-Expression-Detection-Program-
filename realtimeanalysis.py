@@ -16,7 +16,7 @@ face_cascade = cv2.CascadeClassifier(haar_file)
 
 
 def extract_features(image):
-    """Preprocess the image for the model."""
+    #Preprocess the image for the model.
     feature = np.array(image)
     feature = feature.reshape(1, 48, 48, 1)
     return feature / 255.0
