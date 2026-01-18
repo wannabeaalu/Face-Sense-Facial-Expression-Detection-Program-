@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 import os
 
-#  oneDNN warnings nn not important
+#  oneDNN warnings nn not important test
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
 # pre-trained model jypt one replaceable
